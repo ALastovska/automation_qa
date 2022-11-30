@@ -1,17 +1,12 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import lv.acodemy.constants.Generic;
 import lv.acodemy.page_object.InventoryPage;
 import lv.acodemy.page_object.LoginPage;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 import static lv.acodemy.constants.Generic.SAUCE_URL;
 
